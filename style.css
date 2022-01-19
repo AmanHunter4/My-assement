@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lime;
+    margin-top: 100px;
+    background-color: navy;
+}
+div{
+    background-color: black;
+    width: 500px;
+    border: 3px solid lime;
+    margin-left: 400px;
+
+}
+#submit{
+    color: black;
+    background-color: skyblue;
+    font-size: 30px;
+   border-radius: 20px;
+   width: 300px;
+   cursor: pointer;
+}
+#Container:after{
+    content: "My Assement";
+    animation: change 10s linear infinite;
+}
+@keyframes change{
+    0%{
+       
+        color: magenta;
+    }
+
+   10%{
+        
+        color: whitesmoke;
+    }
+
+    20%{
+       
+        color: red;
+    }
+    30%{
+       
+        color: lawngreen;
+    }
+    40%{
+        
+        color: lightsalmon;
+    }
+    50%{
+       
+        color: maroon;
+    }
+    60%{
+       
+        color: mediumpurple;
+    }
+    70%{
+        color: navy;
+    }
+    80%{
+      
+        color: turquoise;
+    }
+    90%{
+        color:ivory;
+    }
+}   
